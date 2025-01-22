@@ -1,2 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zanara Ateliê de Crochê</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Zanara Ateliê de Crochê</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo ao Zanara Ateliê de Crochê! Somos apaixonados por criar peças únicas e especiais feitas à mão. Nosso objetivo é levar o encanto do crochê para sua vida, seja através de decorações, acessórios ou presentes personalizados.</p>
+            </div>
+        </section>
+
+        <section id="produtos" class="produtos">
+            <div class="container">
+                <h2>Produtos</h2>
+                <div class="galeria">
+                    <div class="item">
+                        <img src="produto1.jpg" alt="Produto 1">
+                        <h3>Toalha de Mesa</h3>
+                        <p>Feita com linhas de alta qualidade.</p>
+                    </div>
+                    <div class="item">
+                        <img src="produto2.jpg" alt="Produto 2">
+                        <h3>Tapete Decorativo</h3>
+                        <p>Ideal para decorar qualquer ambiente.</p>
+                    </div>
+                    <div class="item">
+                        <img src="produto3.jpg" alt="Produto 3">
+                        <h3>Amigurumi</h3>
+                        <p>Perfeito para presentes ou colecionar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para encomendas ou dúvidas:</p>
+                <form action="https://example.com/contato" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zanara Ateliê de Crochê. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
 </html>
